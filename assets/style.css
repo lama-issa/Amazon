@@ -1,0 +1,490 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    height: 50vh;
+    animation-name: move;
+    animation-delay: 4s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-image: url("../assets/img/amz-bg.jpg");
+    background-size: cover;
+    position: relative;
+    background-position:top center ;
+}
+
+
+
+@keyframes move {
+    0% {
+        background-image: url("../assets/img/amz-bg.jpg");
+
+    }
+
+    30% {
+        background-image: url("../assets/img/amz5.jpg");
+    }
+
+    55% {
+        background-image: url("../assets/img/amz-bg2.jpg");  
+    }
+
+    80% {
+        background-image: url("../assets/img/amz4.jpg");
+    }
+
+    100% {
+        background-image: url("../assets/img/amz-bg3.jpg");
+    }
+}
+
+input {
+    width: 40%;
+}
+.offcanvas-header a{
+    text-decoration: none;
+}
+.navbar img {
+    padding-top: 10px;
+}
+
+.navbar a:hover {
+    border: 1px solid white;
+
+}
+
+.header i:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.header .prev{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 9;
+    color: #FFF;
+}
+
+.header .next {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 9;
+    color: #FFF;
+}
+
+/*start sign*/
+.sign:hover .signf button {
+    background-color: #f0c14b;
+    
+}
+.p-sign{
+    font-size: 12px;
+    margin-top: 18px;
+   
+}
+.a-sign a{
+    font-size: 13px; 
+}
+.signf a{
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.signf {
+    border: 1px solid rgb(198, 193, 193);
+    border-radius: 5px;
+    width: 25%;
+    margin: auto;
+
+    padding: 20px;
+}
+
+.signf button {
+    background-color: #f0c14b;
+    border-radius: 3px;
+    padding: 3px;
+}
+.icon-sign img{
+    width: 10%;
+}
+.sign-end h5:before,.sign-end h5:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid  rgb(198, 193, 193);
+    margin: auto;
+    
+}
+.sign-end h5 {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin: auto;
+    font-size: 12px;
+    color: #767676;
+    margin-top: 20px;
+}
+.sign-end button{
+    width: 25%;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 5px ;
+  font-size: 14px;
+}
+.sign-end button:focus {
+    border: 1px solid orange;
+}
+input:focus{
+    outline: none;
+    border: 1px solid orange;
+}
+.sign-end .line{
+width: 35%;
+margin: auto;
+border-bottom: 1px solid  rgb(222, 217, 217);
+margin-top: 30px;
+}
+.sign-end ul{
+    width: 20%;
+margin: auto;
+margin-top: 10px;
+
+}
+.sign-end a{
+    color: #0066c0;
+}
+.signf a:hover , .sign-end a:hover{
+    text-decoration: underline;
+    color: rgb(169, 60, 60);
+}
+.p2-sign{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media (max-width:700px){
+    .signf {
+       
+        width: 70%;}
+}
+/*end sign*/
+
+
+/*start footer*/
+.butfot{
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #f0c14b;
+   width: 15%;
+   border-radius: 5px;
+   height: 10%;
+   padding: 5px 0;
+}
+.fot-top{
+    background-color:  #274058;
+    color: white;
+}
+.fot-top:hover{
+    background-color:#085563;
+}
+.fot-but{
+    background-color: #232F3E;
+}
+.fot-but p{
+    color: #DDD;
+    font-size: 14px;
+}
+.fot-but p:hover{
+    cursor: pointer;
+}
+/*end footer*/
+
+
+/*start dress*/
+.drs img {  
+ width:auto;
+  height: 100%;
+ 
+}
+
+.drs a {
+    height: 300px;
+    text-align: center;
+    background-color: rgb(242, 238, 238);
+    width: 100%;
+}
+.save {
+    background-color: rgb(151, 233, 29);
+}
+.drs{
+    height: 100%;
+}
+
+/*end dress*/
+
+/*staet index*/
+.c img {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.c  a p{
+    margin-top: 30px;
+}
+.card i {
+    color: orange;
+}
+
+.c h2 {
+   
+    min-height: 5vw;
+}
+.c p {
+    
+    min-height: 3vw;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.box-hed {
+    background-color: white;
+    padding: 15px;
+  height: 400px;
+}
+
+.box-hed img{
+    width: 100%;
+   
+}
+
+.box-hed a {
+    text-decoration: none;
+    color: #007185;
+   
+}
+
+.box-hed a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.box-sign button {
+    background-color: rgb(255, 204, 0);
+    border-radius: 6px;
+    border: none;
+
+}
+
+.about h2 {
+    font-size: 21px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flag input{
+    width: 15%;
+   
+  }
+  
+  .about {
+      background-color: rgb(246, 234, 234);
+      padding-bottom: 50px;
+      
+  } 
+    /*end index*/
+/*d1 start*/
+
+.img-d1 i {
+    color: orange;
+}
+.img-d1 a{
+    text-decoration: none;
+    color: #007185;
+}
+.line{
+    border-bottom: solid 1px rgb(235, 230, 230);
+}
+.price{
+    font-size: 20px;
+}
+.tes{
+  
+    text-align: center;
+}
+.tes {
+    height: 100vh;
+}
+.bor{
+    border: 1px solid rgb(244, 235, 235);
+}
+.img1{
+  text-align: center;
+  height: 43%;
+  display: flex;
+  justify-content: center;
+}
+
+.select{
+border-radius: 7px;
+padding: 5px;
+background-color: rgb(197, 181, 181);
+}
+.select:hover{
+    cursor: pointer;
+    background-color: rgb(244, 235, 235);
+}
+.fo{
+    border: 1px solid gray;
+    padding: 30px;
+}
+.d1-form {
+    width: 30%;
+ float:right;
+
+}
+.d1-button{
+   width: 70%;
+}
+.a-nav{
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+
+}
+.Styling-ideas .cont{
+    background-color:gainsboro;
+}
+@media(max-width:700px){
+    .d1-form {
+        width: 70%;
+    float: none;
+    
+    }
+}
+
+/*end d1*/
+/*start watch*/
+
+.wat-cont{
+    background-color: gainsboro;
+}
+.wat-cont i{
+    color: orange;
+}
+.wat-cont1 i{
+    color: orange;
+}
+.w{
+    width: 40%;
+}
+.w img{
+    width: 60%;
+}
+
+/*end watch*/
+
+/*start mandress*/
+.item{
+
+height: 250px;
+
+}
+.item img{
+    height: 100%;
+    margin: auto;
+    
+}
+
+.desc span {
+    color: #888;
+    cursor: pointer;
+}
+.desc i{
+    font-size: 20px;
+}
+.desc i:hover {
+    font-weight: 700; 
+    color: #f0c14b;
+}
+
+.item{
+    overflow: hidden; 
+}
+.btn-view{
+    width: fit-content; /*عشان يوخذ العرض المناسب*/
+    transform: translatex(50px); 
+    right: 50%;
+    position: absolute;
+    top: 100%;/*عشان البتن يصير خارج الايتم بالتالي لما يختفي بسبب ال overflow:hidden*/
+    transition: .5s;/* عشان يظهر البتن ببطئ */
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: unset;/* عشان اشيل ال border عن buttn*/
+  padding: 6px;
+}
+.btn-view:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
+.item:hover .btn-view{
+    top: 70%;/* هون عشان البتن يظهر داخل الايتم*/
+    
+}
+.img1{
+    position: relative;
+}
+.prev i{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+.next i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+/*end mandress*/
+
+/*m1*/
+.active{
+    display: block;
+}
+.img1 {
+    height: 70%;
+}
+
+/*end m1*/
+
+
